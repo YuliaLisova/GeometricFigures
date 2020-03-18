@@ -1,6 +1,9 @@
 #ifndef Trigonometry_H
 #define  Trigonometry_H
 
+/*standart function cos from math.h does not return zero as cos of 90 degrees. 
+It returns 0.000796327 -very small number, but not zero :) */
+
 #include <math.h>
 #define PI 3.14
 
